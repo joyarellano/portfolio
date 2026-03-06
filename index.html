@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <nav class="fixed top-0 z-10 w-full bg-gray-200/20 backdrop-blur-md">
+
+            <div class="flex justify-between items-center px-6 py-3">
+
+                <!-- Logo -->
+                <h2 class="text-2xl md:text-3xl font-bold border-2 border-black px-4 py-1">
+                    Joy's<span class="text-rose-500">.</span>
+                </h2>
+
+                <!-- Toggle Button -->
+                <button id="menu-btn" class="md:hidden text-3xl">
+                    ☰
+                </button>
+
+                <!-- Menu -->
+                <div id="menu" class="hidden md:flex space-x-8 font-semibold">
+
+                    <a href="#home" class="hover:text-rose-500">HOME</a>
+                    <a href="#about" class="hover:text-rose-500">ABOUT</a>
+                    <a href="#services" class="hover:text-rose-500">SERVICES</a>
+                    <a href="#skills" class="hover:text-rose-500">SKILLS</a>
+                    <a href="#projects" class="hover:text-rose-500">PROJECTS</a>
+                    <a href="#contact" class="hover:text-rose-500">CONTACT</a>
+
+                </div>
+
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden flex flex-col items-center space-y-4 pb-4 md:hidden font-semibold">
+
+                <a href="#home" class="hover:text-rose-500">HOME</a>
+                <a href="#about" class="hover:text-rose-500">ABOUT</a>
+                <a href="#services" class="hover:text-rose-500">SERVICES</a>
+                <a href="#skills" class="hover:text-rose-500">SKILLS</a>
+                <a href="#projects" class="hover:text-rose-500">PROJECTS</a>
+                <a href="#contact" class="hover:text-rose-500">CONTACT</a>
+
+            </div>
+
+        </nav>
+
+        <div id="home" class="bg-gray-300 w-full min-h-screen overflow-hidden mt-10">
+
+            <div class="max-w-7xl mx-auto relative mt-10">
+
+                <div class="bg-rose-700 h-full w-full md:w-[80%] rounded-br-full absolute">
+                </div>
+
+                <div class="flex flex-col lg:flex-row md:flex-row">
+
+                    <!-- TEXT -->
+                    <div class="relative space-y-6 py-16 px-6 md:px-10 lg:px-20">
+
+                        <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+                            Eacyl joy Arellano
+                        </h2>
+
+                        <h1 class="text-xl md:text-2xl lg:text-3xl font-medium text-white">
+                            FrontEnd Web Developer.
+                        </h1>
+
+                        <div class="border-l-2 h-auto px-4 py-2">
+
+                            <p class="text-base md:text-lg lg:text-xl text-white mb-3">
+                                I am an aspiring, dedicated and innovative FrontEndDeveloper,
+                            </p>
+
+                            <p class="text-base md:text-lg lg:text-xl text-white mb-3">
+                                i specialize in designing unique sets for Html website,
+                            </p>
+
+                            <p class="text-base md:text-lg lg:text-xl text-white mb-3">
+                                with a focus on creating memorable and impactful,
+                            </p>
+
+                            <p class="text-base md:text-lg lg:text-xl text-white mb-3">
+                                visual experiences with precision and creativity.
+                            </p>
+
+                        </div>
+
+                        <button
+                            class="bg-red-500 h-10 w-32 md:h-12 md:w-36 rounded-md hover:bg-red-900 text-white text-sm md:text-base font-bold mt-6">
+                            Contact Me
+                        </button>
+
+                    </div>
+
+                    <!-- IMAGE -->
+                    <div class="relative px-6 md:px-10 lg:px-20 mt-10 lg:mt-10 flex justify-center">
+
+                        <div
+                            class="border-4 border-black h-[350px] md:h-[450px] lg:h-[550px] w-[250px] md:w-[320px] lg:w-[380px] rounded-tl-4xl">
+
+                            <img class="h-full w-full object-cover rounded-tl-4xl scale-110 hover:scale-105 duration-300"
+                                src="profile.jpg" alt="">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <section id="about" class="py-20 bg-gray-300">
+
+            <div>
+                <div class="absolute bg-gray-300 w-full opacity-5">
+                    <h1 class="text-5xl md:text-7xl font-bold mt-2 px-6 md:px-20 lg:px-30">ABOUT</h1>
+                </div>
+
+                <div class="relative py-5 px-6 md:px-20 lg:px-30">
+                    <h1 class="text-3xl md:text-4xl font-medium">About</h1>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row md:flex-col mt-10 items-center">
+
+                <!-- IMAGE -->
+                <div class="px-6 md:px-20 lg:px-30 mb-10 lg:mb-0">
+
+                    <div
+                        class="absolute border-4 border-black h-[420px] md:h-[500px] lg:h-130 w-[280px] md:w-[320px] lg:w-95 mx-5 py-8">
+                    </div>
+
+                    <img class="relative h-[400px] md:h-[480px] lg:h-120 w-[260px] md:w-[300px] lg:w-90 scale-110 hover:scale-105 rounded-xl border object-cover"
+                        src="profile.jpg" alt="">
+
+                </div>
+
+                <!-- CARDS -->
+                <div class="flex flex-col md:flex-row lg:flex-row items-center gap-6 lg:ml-7 md:mt-10">
+
+                    <div
+                        class="border-2 bg-gray-300 opacity-90 w-[260px] md:w-[300px] lg:w-63 h-55 text-center rounded-2xl hover:scale-105 p-2">
+                        <i class="fa-solid fa-baseball mt-5 text-4xl md:text-5xl"></i>
+                        <h1 class="mt-5 font-bold text-xl md:text-2xl">Sports</h1>
+                        <p class="text-lg md:text-xl">Volleyball</p>
+                        <p class="text-lg md:text-xl">Badminton</p>
+                    </div>
+
+                    <div
+                        class="border-2 bg-gray-300 opacity-90 w-[260px] md:w-[300px] lg:w-63 h-55 text-center rounded-2xl hover:scale-105 p-2">
+                        <i class="fa-solid fa-location-dot mt-5 text-4xl md:text-5xl"></i>
+                        <h1 class="mt-5 font-bold text-xl md:text-2xl">Location</h1>
+                        <p class="text-lg md:text-xl">Prk-3 New bantayan</p>
+                        <p class="text-lg md:text-xl">Asuncion Davao Del Norte Philippines</p>
+                    </div>
+
+                    <div
+                        class="border-2 bg-gray-300 opacity-90 w-[260px] md:w-[300px] lg:w-63 h-55 text-center rounded-2xl hover:scale-105 p-2">
+                        <i class="fa-solid fa-bag-shopping mt-5 text-4xl md:text-5xl"></i>
+                        <h1 class="mt-5 font-bold text-xl md:text-2xl">Work</h1>
+                        <p class="text-lg md:text-xl">Front End Web Developer</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="services">
+            <div class="max-w-7xl mx-auto lg:py-30 sm:py-20 py-16 px-4">
+
+                <div class="my-20 flex justify-center relative">
+
+                    <div class="absolute bg-gray-300 w-72 sm:w-96 opacity-5 text-center">
+                        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mt-2">SERVICES</h1>
+                    </div>
+
+                    <div class="relative py-7">
+                        <h1 class="text-3xl sm:text-4xl font-medium">My Services</h1>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-6 mt-10">
+
+                    <!-- CARD 1 -->
+                    <div
+                        class="border bg-gray-300 opacity-80 w-full max-w-sm lg:max-w-md min-h-[240px] text-center rounded-2xl hover:scale-105 p-6 transition">
+
+                        <h1 class="mt-4 font-semibold text-2xl sm:text-3xl">UI/UX</h1>
+
+                        <p class="text-base sm:text-lg lg:text-xl my-2">
+                            User Interface (UI) and User Experience (UX) are two crucial aspects of
+                            design that often get confused but serve distinct purposes in the creation of digital
+                            products.
+                        </p>
+
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div
+                        class="border bg-gray-300 opacity-80 w-full max-w-sm lg:max-w-md min-h-[240px] text-center rounded-2xl hover:scale-105 p-6 transition">
+
+                        <h1 class="mt-4 font-semibold text-2xl sm:text-3xl">Responsive Designs</h1>
+
+                        <p class="text-base sm:text-lg lg:text-xl my-2">
+                            Is a web design approach that ensures content adapts to various screen
+                            sizes using CSS techniques like fluid grids, flexible layouts, and media queries.
+                        </p>
+
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div
+                        class="border bg-gray-300 opacity-80 w-full max-w-sm lg:max-w-md min-h-[240px] text-center rounded-2xl hover:scale-105 p-6 transition">
+
+                        <h1 class="mt-4 font-semibold text-2xl sm:text-3xl">User-friendly</h1>
+
+                        <p class="text-base sm:text-lg lg:text-xl my-2">
+                            Refers to interfaces and systems designed to be intuitive and easy to
+                            use. This means that users can navigate and interact with the content without encountering
+                            frustration.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FRONTEND SKILLS SECTION -->
+        <section id="skills" class="bg-gray-300 py-30">
+
+            <!-- Title -->
+            <div class="text-center mb-16 px-6">
+                <h1 class="text-3xl md:text-4xl font-bold text-shadow-lg/40">Frontend Skills</h1>
+                <p class="text-gray-600 mt-4">Technologies I use to build modern, responsive websites</p>
+            </div>
+
+            <div class="max-w-5xl mx-auto space-y-10 px-6">
+
+                <!-- Skill Item -->
+                <div class="skill">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold text-lg">HTML</span>
+                        <span class="text-rose-600 font-semibold">95%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 h-3 rounded-full overflow-hidden">
+                        <div class="progress bg-rose-600 h-3 rounded-full w-0" data-width="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold text-lg">CSS</span>
+                        <span class="text-rose-600 font-semibold">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 h-3 rounded-full overflow-hidden">
+                        <div class="progress bg-rose-600 h-3 rounded-full w-0" data-width="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold text-lg">Tailwind CSS</span>
+                        <span class="text-rose-600 font-semibold">88%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 h-3 rounded-full overflow-hidden">
+                        <div class="progress bg-rose-600 h-3 rounded-full w-0" data-width="88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold text-lg">JavaScript</span>
+                        <span class="text-rose-600 font-semibold">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 h-3 rounded-full overflow-hidden">
+                        <div class="progress bg-rose-600 h-3 rounded-full w-0" data-width="80%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="min-h-screen px-4">
+
+            <div class="max-w-7xl mx-auto lg:py-10 py-20">
+
+                <div class="my-20 flex justify-center relative">
+
+                    <div class="absolute bg-gray-300 w-72 sm:w-96 opacity-5 text-center">
+                        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mt-2">PROJECTS</h1>
+                    </div>
+
+                    <div class="relative py-7">
+                        <h1 class="text-3xl sm:text-4xl font-medium">My Projects</h1>
+                    </div>
+
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-5 mt-5 justify-center">
+
+                    <img class="w-full h-60 sm:h-72 lg:h-[280px] rounded-3xl object-cover" src="image1.png" alt="">
+
+                    <img class="w-full h-60 sm:h-72 lg:h-[280px] rounded-3xl object-cover" src="image3.png" alt="">
+
+                    <img class="w-full h-60 sm:h-72 lg:h-[280px] rounded-3xl object-cover" src="image2.png" alt="">
+
+                    <img class="w-full h-60 sm:h-72 lg:h-[280px] rounded-3xl object-cover" src="image4.png" alt="">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
+
+            <div
+                class="max-w-7xl mx-auto overflow-hidden bg-white/90 w-full rounded-2xl lg:py-10 py-16 backdrop-blur mt-20 px-4">
+
+                <div class="mb-8 text-center mt-10">
+                    <h1 class="text-3xl font-bold">Get in Touch</h1>
+                    <p class="text-lg sm:text-xl">Send me a message!</p>
+                </div>
+
+                <div class="flex flex-col lg:flex-row lg:justify-between gap-10 border p-5 rounded-md">
+
+                    <!-- CONTACT DETAILS -->
+                    <div class="my-20 lg:mx-20 sm:mx-5 mx-5">
+                        <div class="space-y-5">
+
+                            <div>
+                                <h1 class="font-semibold text-xl">Contact Detials</h1>
+                                <p class="text-lg">Reach out me anytime.</p>
+                            </div>
+
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>+63 970 029 9688</p>
+                            </div>
+
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-message"></i>
+                                <p>eacyljoya@gmail.com</p>
+                            </div>
+
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Asuncion, Davao del Norte, Philippines</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- FORM -->
+                    <form class="space-y-5 p-6 rounded-xl lg:border lg:border-rose-500 shadow-sm w-full max-w-xl">
+
+                        <div>
+                            <h1 class="font-medium">Full Name</h1>
+                            <input type="text" class="mt-1 w-full p-3 border border-rose-500 rounded-lg"
+                                placeholder="Your name">
+                        </div>
+
+                        <div>
+                            <h1 class="font-medium">Email</h1>
+                            <input type="text" class="mt-1 w-full p-3 border border-rose-500 rounded-lg"
+                                placeholder="Your email">
+                        </div>
+
+                        <div>
+                            <h1 class="font-medium">Message</h1>
+                            <textarea rows="3" class="mt-1 w-full p-3 border border-rose-500 rounded-lg"
+                                placeholder="Write your message...."></textarea>
+                        </div>
+
+                        <button class="w-40 py-3 bg-rose-600 text-white rounded-lg shadow-md hover:bg-rose-700">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="bg-gray-200 text-white py-10 mt-10">
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
+
+                    <!-- Logo / About -->
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl text-black font-bold">Joy's<span class="text-rose-500">.</span></h2>
+                        <p class="mt-3 text-black max-w-sm">
+                            Frontend Web Developer passionate about creating responsive,
+                            modern and user-friendly websites.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-lg text-black font-semibold mb-3">Quick Links</h3>
+                        <div class="flex flex-col space-y-2">
+                            <a href="#home" class="text-black hover:text-rose-500">Home</a>
+                            <a href="#about" class="text-black hover:text-rose-500">About</a>
+                            <a href="#services" class="text-black hover:text-rose-500">Services</a>
+                            <a href="#skills" class="text-black hover:text-rose-500">Skills</a>
+                            <a href="#projects" class="text-black hover:text-rose-500">Projects</a>
+                            <a href="#contact" class="text-black hover:text-rose-500">Contact</a>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-lg text-black font-semibold mb-3">Follow Me</h3>
+                        <div class="flex justify-center md:justify-start space-x-4 text-xl">
+                            <a href="#" class="text-black hover:text-rose-400"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="text-black hover:text-rose-400"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="text-black hover:text-rose-400"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="text-black hover:text-rose-400"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Bottom -->
+                <div class="border-t border-gray-700 mt-8 pt-5 text-black text-center text-sm">
+                    © 2026 Joy's Portfolio. All rights reserved.
+                </div>
+
+            </div>
+        </footer>
+
+        <!-- Animation Script -->
+        <script>
+            const skillsSection = document.querySelectorAll('.progress');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const progressBar = entry.target;
+                        progressBar.style.width = progressBar.getAttribute('data-width');
+                        progressBar.style.transition = "width 1.5s ease-in-out";
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            skillsSection.forEach(bar => {
+                observer.observe(bar);
+            });
+
+            const btn = document.getElementById("menu-btn");
+            const menu = document.getElementById("mobile-menu");
+
+            btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+        </script>
+    </div>
+</body>
+
+</html>
